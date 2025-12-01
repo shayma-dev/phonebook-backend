@@ -1,0 +1,22 @@
+GET http://localhost:3001/api/persons
+
+###
+
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "Shayma Ahed",
+  "number": 12345678
+}
+
+###
+
+GET http://localhost:3001/api/persons/563417
+
+
+###
+
+DELETE http://localhost:3001/api/persons/563417
+
+
